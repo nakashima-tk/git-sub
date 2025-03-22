@@ -1,0 +1,3 @@
+#!/bin/bash
+branch=`git c-origin`
+git --no-pager diff $branch... $1
